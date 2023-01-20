@@ -73,10 +73,12 @@ https://fonts.google.com/specimen/Gantari?category=Serif,Sans+Serif
         <!--(click)="changeMainAbout()"-->
         <button class="botonHeader">
           <a href="https://heisjuanda.netlify.app/">
-            <p>
-              Back?<br />
-              <span>Yes</span>
-            </p>
+            <i>
+              <p>
+                Back?<br />
+                <span>Yes</span>
+              </p>
+            </i>
           </a>
         </button>
       </div>
@@ -100,7 +102,7 @@ https://fonts.google.com/specimen/Gantari?category=Serif,Sans+Serif
 
       <div class="D3Foto" data-aos="fade-left" data-aos-duration="500" data-aos-delay="500">
         <img id="foto1"
-          src="https://user-images.githubusercontent.com/63882053/191776346-61bf3022-7b15-4ebd-a91f-a35fd4da6108.png"
+          src="https://user-images.githubusercontent.com/63882053/200615618-faec3a94-668e-45e5-ad7b-4dbc54fc2e38.png"
           alt="" />
       </div>
 
@@ -122,96 +124,112 @@ https://fonts.google.com/specimen/Gantari?category=Serif,Sans+Serif
         </p>
       </div>
 
-      <div data-aos-delay="500" data-aos-duration="500"  data-aos="flip-down" class="D5">
-        <p>
-          Check my Resume
-          <span>
-            <br />
-            &#10145;
-          </span>
-        </p>
+      <div data-aos-delay="500" data-aos-duration="500" data-aos="flip-down" class="D5">
+        <i>
+          <p>
+            Check my Resume
+            <span>
+              <br />
+              &#10145;
+            </span>
+          </p>
+        </i>
       </div>
 
-      <div data-aos-delay="500" data-aos-duration="500"  data-aos="zoom-in" class="ResumeeAbout">
+      <div data-aos-delay="500" data-aos-duration="500" data-aos="zoom-in" class="ResumeeAbout">
         <button>
-          <a href="https://github.com/jdma253/Cosas/files/9955516/JuanDa.s.Resume.pdf"
-            download="https://github.com/jdma253/Cosas/files/9955516/JuanDa.s.Resume.pdf">Resume(160kb.pdf)</a>
+          <i>
+            <a href="https://github.com/jdma253/Cosas/files/10416473/JUAN.DAVID.RESUMEE.pdf"
+              download="https://github.com/jdma253/Cosas/files/10416473/JUAN.DAVID.RESUMEE.pdf">Resume(168kb.pdf)</a>
+          </i>
         </button>
       </div>
 
-      <div data-aos-delay="500" data-aos-duration="500" data-aos="flip-up" class="skills" >
-        <p>Skills</p>
+      <div data-aos-delay="500" data-aos-duration="500" data-aos="flip-up" class="skills">
+        <i>
+          <p>Skills</p>
+        </i>
       </div>
 
-      <div></div>
+      <div class="espacio"></div>
 
       <!--JAVA-->
-      <div data-aos-once="true" data-aos-duration="500" data-aos-delay="500" data-aos="fade-right" style="margin-left: 15%;">
+      <!--
+        data-aos-once="true" data-aos-duration="500" data-aos-delay="500" data-aos="fade-right"
+        sdata-aos-once="true" data-aos-duration="500" data-aos-delay="500" data-aos="fade-left"
+      -->
+      <div class="lottie"
+        style="margin-left: 15%;">
         <ng-lottie width="60%" height="90%" containerClass="moving-box another-class" [options]="options1"
           (animationCreated)="animationCreated($event)"></ng-lottie>
       </div>
 
-      <div data-aos-once="true" data-aos-duration="500" data-aos-delay="500" data-aos="fade-left" class="progress">
+      <div class="progress">
         <div style="width: 65%;" class="progress-value">
           <p>65%</p>
         </div>
       </div>
 
       <!--JS-->
-      <div data-aos-once="true" data-aos-delay="500" data-aos-duration="500" data-aos="fade-right" style="margin-left: 25%;">
+      <div class="lottie"
+        style="margin-left: 25%;">
         <ng-lottie width="40%" height="50%" containerClass="moving-box another-class" [options]="options2"
           (animationCreated)="animationCreated($event)"></ng-lottie>
       </div>
 
-      <div data-aos-once="true" data-aos-delay="500" data-aos-duration="500" data-aos="fade-left" class="progress">
+      <div class="progress">
         <div style="width: 60%;" class="progress-value">
           <p>60%</p>
         </div>
       </div>
 
       <!--PYTHON-->
-      <div data-aos-once="true" data-aos-delay="500" data-aos-duration="500"  data-aos="fade-right" style="margin-left: 10%;">
+      <div class="lottie"
+        style="margin-left: 10%;">
         <ng-lottie width="70%" height="20%" containerClass="moving-box another-class" [options]="options3"
           (animationCreated)="animationCreated($event)"></ng-lottie>
       </div>
 
-      <div data-aos-once="true" data-aos-delay="500" data-aos-duration="500" data-aos="fade-left" class="progress">
+      <div class="progress">
         <div style="width: 60%;" class="progress-value">
           <p>60%</p>
         </div>
       </div>
 
       <!--CSS-->
-      <div data-aos-once="true" data-aos-delay="500" data-aos-duration="500" data-aos="fade-right" style="margin-left: 5%;">
+      <div class="lottie"
+        style="margin-left: 5%;">
         <ng-lottie width="70%" height="20%" containerClass="moving-box another-class" [options]="options4"
           (animationCreated)="animationCreated($event)"></ng-lottie>
       </div>
 
-      <div data-aos-once="true" ddata-aos-delay="500" data-aos-duration="500" data-aos="fade-left" class="progress">
+      <div class="progress">
         <div style="width: 50%;" class="progress-value">
           <p>50%</p>
         </div>
       </div>
 
       <!--HTML-->
-      <div data-aos-once="true" data-aos-delay="500" data-aos-duration="500" data-aos="fade-right" style="margin-left: 9%;">
+      <div class="lottie"
+        style="margin-left: 9%;">
         <ng-lottie width="60%" height="20%" containerClass="moving-box another-class" [options]="options5"
           (animationCreated)="animationCreated($event)"></ng-lottie>
       </div>
 
-      <div data-aos-once="true" data-aos-delay="500" data-aos-duration="500" data-aos="fade-left" class="progress">
+      <div class="progress">
         <div style="width: 60%;" class="progress-value">
           <p>60%</p>
         </div>
       </div>
 
       <!--ANGULAR-->
-      <div data-aos-once="true" ddata-aos-delay="500" data-aos-duration="500" data-aos="fade-right" style="margin-left: 14%;">
+      <div class="lottie"
+        style="margin-left: 14%;">
         <ng-lottie width="55%" height="50%" containerClass="moving-box another-class" [options]="options6"
           (animationCreated)="animationCreated($event)"></ng-lottie>
       </div>
 
-      <div data-aos-once="true" data-aos-delay="500" data-aos-duration="500" data-aos="fade-left" class="progress">
+      <div class="progress">
         <div style="width: 50%;" class="progress-value">
           <p>50%</p>
         </div>
@@ -226,7 +244,6 @@ https://fonts.google.com/specimen/Gantari?category=Serif,Sans+Serif
       <div class="esta">
         <a class="Back" href="#aBOUT">
           <img
-
             src="https://user-images.githubusercontent.com/63882053/192379634-63afe651-a484-4a42-8129-5b56a3409319.png"
             alt="" />
         </a>
