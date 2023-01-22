@@ -177,7 +177,6 @@ button:hover {
     height: 4vw;
     padding: 1%;
     transition: 1s;
-
     a {
       text-decoration: none;
     }
@@ -200,7 +199,6 @@ button:hover {
     border: transparent;
     width: 15%;
     height: 4vw;
-
     p {
       line-height: 0px;
       visibility: hidden;
@@ -428,9 +426,18 @@ button:hover {
 
     .ResumeeAbout {
       button {
+        box-sizing: border-box;
+        height: 10vw;
+        width: 40vw;
         a {
+          transition: 1s;
           font-size: 5vw;
           text-align: center;
+        }
+      }
+      button:hover{
+        a{
+          font-size: 4vw;
         }
       }
     }
@@ -441,6 +448,7 @@ button:hover {
           text-align: start;
           margin-left: 20vw;
           font-size: 15vw;
+
         }
       }
     }
